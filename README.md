@@ -11,4 +11,18 @@ Here we introduce Therefore, we have created a face mask face detection model th
 
 ![HighLevelARCHMASKITOR](https://user-images.githubusercontent.com/63171468/116589665-de47e780-a8ea-11eb-848f-e80adae01498.png)
 
+This architecture diagram clearly shows the process of training the model (highlighted in green), and the working of inferencing engine using the trained model along with its interactions with the SQL database to store and retrieve the detections for Face-Matching and Reports generation. (*The images used in the above diagram are from google image search*)
+
 ## **DATA DESCRIPTION**
+
+The dataset used to train YOLOv5 model can be downloaded from:
+https://github.com/anu-git11/MaskData . 
+This dataset consists of ~7000 images of masked and non-masked people. 
+It was created from open source images and was labelled in yolo format using the open source labelling tool :
+**LabelImg (https://github.com/tzutalin/labelImg)** 
+
+## **TRAINING**
+
+The YOLOv5x algorithm was trained on Google COLAB with our dataset for various image sizes, with 620px giving the best results i.e. A detection Accuracy of 97%, Precision 0.95, and a Recall of 0.9. The trained model is stored in the Models folder of the MASKITORAlgorithm.
+
+
