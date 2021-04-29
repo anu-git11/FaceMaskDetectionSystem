@@ -7,4 +7,8 @@ Artificial Intelligence (AI) based on Machine learning and Deep Learning can hel
 
 Here we introduce Therefore, we have created a face mask face detection model that is based on computer vision and deep learning. The proposed model can be integrated with surveillance cameras to impede the COVID-19 transmission by allowing the detection of people who are wearing masks not wearing face masks. The model is a integration between of deep learning and classical machine learning techniques with YOLO v5, OpenCV, CUDA DNN, Pytorch and Torchvision. 
 
-HIGH LEVEL ARCHITECTURE DIAGRAM FOR THE SYSTEM:
+### **HIGH LEVEL ARCHITECTURE DIAGRAM FOR THE SYSTEM:**
+
+
+
+### **DATA DESCRIPTION**
