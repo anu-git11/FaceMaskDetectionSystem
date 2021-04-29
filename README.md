@@ -1,4 +1,4 @@
-# FaceMaskDetectionSystem
+# FACE MASK DETECTION SYSTEM with FACE MATCHING FROM SQL DATABASE
 
 As of January 28, 2020, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has infected more than 100 million individuals worldwide and caused more than 2.1 million deaths.
 
@@ -7,8 +7,8 @@ Artificial Intelligence (AI) based on Machine learning and Deep Learning can hel
 
 Here we introduce Therefore, we have created a face mask face detection model that is based on computer vision and deep learning. The proposed model can be integrated with surveillance cameras to impede the COVID-19 transmission by allowing the detection of people who are wearing masks not wearing face masks. The model is a integration between of deep learning and classical machine learning techniques with YOLO v5, OpenCV, CUDA DNN, Pytorch and Torchvision. 
 
-### **HIGH LEVEL ARCHITECTURE DIAGRAM FOR THE SYSTEM:**
+## **HIGH LEVEL ARCHITECTURE DIAGRAM FOR THE SYSTEM:**
 
+![HighLevelARCHMASKITOR](https://user-images.githubusercontent.com/63171468/116589665-de47e780-a8ea-11eb-848f-e80adae01498.png)
 
-
-### **DATA DESCRIPTION**
+## **DATA DESCRIPTION**
