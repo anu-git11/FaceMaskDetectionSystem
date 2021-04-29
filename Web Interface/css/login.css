@@ -1,0 +1,89 @@
+
+/*login-form */
+.h2, h2{
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.login-form .checkbox{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 17px;
+  text-align: left;
+}
+.login-form form {
+  
+  background-color: #666666;
+  padding:40px;
+  border-radius:4px;
+  color: white;
+  box-shadow:6px 3px 6px rgba(5, 5, 5, 0.31);
+  margin: 20px auto;
+  width: 30%;
+  margin-top: 150px;
+}
+
+.error-msg {
+  color: red;
+  text-align: left;
+}
+
+.login-form .invalid {
+  border-bottom-color: red !important;
+}
+
+.login-form .illustration {
+  text-align:center;
+  padding:15px 0 20px;
+  font-size:70px;
+}
+
+.login-form form .form-control {
+  background:none;
+  border:none;
+  border-bottom:2px solid #c7cfd7;
+  border-radius:0;
+  box-shadow:none;
+  outline:none;
+  
+}
+
+#userName::placeholder, #password::placeholder{
+  color: white;
+  opacity: 1;
+}
+
+#userName:-ms-input-placeholder , #password:-ms-input-placeholder{ /* Internet Explorer 10-11 */
+  color: white;
+}
+
+#userName::-ms-input-placeholder, #password::-ms-input-placeholder { /* Microsoft Edge */
+  color: white;
+}
+
+#userName.form-control{
+	color:white;
+}
+
+#password.form-control{
+	color: white;
+}
+
+
+.login-form form .btn-primary {
+  background:#73919d;
+  border:none;
+  border-radius:4px;
+  padding:12px;
+  box-shadow:none;
+  margin-top:26px;
+  text-shadow:none;
+  outline:none;
+}
+
+.btn-primary:not(:disabled):not(.disabled).active, .btn-primary:not(:disabled):not(.disabled):active, .show>.btn-primary.dropdown-toggle{
+  background-color:#73919d;
+}
+
+a{
+  color: #d9d9d9;
+}

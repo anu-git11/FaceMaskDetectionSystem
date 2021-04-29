@@ -1,0 +1,227 @@
+
+/*admin-panel*/
+
+/*Profile*/
+.h3, h3{
+  width:600px;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 40px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  margin-bottom: 15px;
+}
+
+.newsidenav{
+  padding-top: 10px;
+  font-family: 'Montserrat', sans-serif;
+  margin-top: -20px;
+}
+
+.newsidenav li{
+  padding-top: 20px;
+  text-align: left;
+  font-size: 18px;
+  display: flex;
+}
+
+#email_input{
+   width: 100%;
+   padding: 5px 10px;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: -7px;
+   margin-bottom: 7px;
+   margin-left: 10px;
+}
+#title_input{
+   width: 100%;
+   padding: 5px 10px;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: -7px;
+   margin-bottom: 7px;
+   margin-left: 10px;
+}
+#phone_input{
+   width: 100%;
+   padding: 5px 10px;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: -7px;
+   margin-bottom: 7px;
+   margin-left: 10px;
+}
+#name_input{
+   width: 100%;
+   padding: 5px 10px;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-top: -7px;
+   margin-bottom: 7px;
+   margin-left: 10px;
+}
+#dob_input{
+   width: 100%;
+   padding: 5px 10px;
+   display: inline-block;
+   border-radius: 4px;
+   box-sizing: border-box;
+   margin-bottom: 7px;
+   margin-right: 20px;
+}
+
+
+
+
+
+.button{
+  width: 100px;
+  display:inline-block;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.button> button{
+  margin-top: 30px;
+  margin-left: 220px;
+  width: 150px;
+  height: 37px;
+  background-color: transparent;
+}
+
+.button1{
+  width: 100px;
+  display:inline-block;
+  margin: 0 0.3em 0.3em 0;
+  border-radius: 0.12em;
+  box-sizing: border-box;
+  color: #ffffff;
+}
+
+.button1> button{
+  margin-top: 30px;
+  margin-left: 60px;
+  width: 150px;
+  height: 37px;
+  background-color: transparent;
+}
+/*dailyresults*/
+
+h1{
+  
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+  font-size: 50px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: white;
+  margin-top: 20px;
+}
+
+#report_date_selector{
+  margin-left: 20px;
+}
+
+
+
+.dailyresults{
+  border-radius: 1px;
+  font-size: 12px;
+  font-weight: normal;
+  border: none;
+  border-collapse: collapse;
+  width: 100%;
+  max-width: 100%;
+  white-space: nowrap;
+  background-color: white;
+  margin-top: 30px;
+}
+
+.table-container {
+  margin: 20px 6% 30px 6%;
+}
+
+.table {
+    margin-bottom: 0px;
+
+}
+
+#reportTable{
+  border-radius: 20px;
+}
+
+#cameraList{
+  border-radius: 20px;
+}
+
+.table-search {
+  width: 20%;
+  float: left;
+  border-radius: 25px;
+  padding-left: 10px;
+  margin-bottom: 2px;
+}
+
+thead > tr > th {
+  white-space: nowrap;
+  cursor: pointer;
+}
+
+th {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-align: center;
+  color: white;
+  
+  font-size: 16px !important;
+
+}
+
+.navbar-light .navbar-nav .nav-link{
+	color: black;
+	margin-left:16px;
+}
+
+/* to show sort icons before table is sorted */
+table.sortable th:not(.sorttable_sorted):not(.sorttable_sorted_reverse):not(.sorttable_nosort):after { 
+    content: " \25B4\25BE";
+    color: rgba(255, 255, 255, 0.28); 
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover{
+
+	color: #faf1f3;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link{
+	color: #fdf4f4;
+}
+
+.table-dark.table-striped tbody tr:nth-of-type(odd){
+	background-color:#809cb5;
+}
+
+.table-dark{
+  margin-top: 30px;
+	background-color:#34485c;
+  
+}
+
+a:hover{
+	color: #fdf4f4;
+}
+
+
+
+.table td, .table th{
+  border-top: 0;
+}

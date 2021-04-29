@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Admin Panel</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya|Bevan|Sanchez|Source+Sans+Pro" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <link rel="stylesheet" href="css/camera.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://www.kryogenix.org/code/browser/sorttable/sorttable.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  </head>
+
+  <body>
+  <div id="mySpinner"></div>
+  <div style="display:none;" id="page-container" class="animate-top"> 
+    <header>
+      <nav class="navbar navbar-expand-lg navbar-light" style="background-color: rgba(0,0,0,0.1); ">
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <a class="navbar-brand" href="home.html">
+                  <img src="images/horizontal-logo2.png" alt="Maskitor" width="216" height="60" class="navbar-center">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                  aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+          <div class="navbar-nav mr-auto">
+            <a class="nav-item nav-link" href="javascript:loadCamera()"><i class="fas fa-camera fa-fw"></i> Camera</a>
+            <a class="nav-item nav-link" href="javascript:loadReport()"><i class="fas fa-file fa-fw"></i>Reports</a>
+          </div>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        
+          <a href="home.html" class="nav-link">
+            <i class="fas fa-sign-out-alt"></i> SIGN OUT
+          </a>
+        </div>
+      </nav>
+    </header>
+
+      <!-- admin-panel-->
+      <div id="content_container">
+        <h1>You have successfully Logged-In!</h1>
+    </div>
+  </div>
+  <script src="js/admin_panel.js"></script>
+  <script src="js/camera_service.js"></script>
+  <script src="js/report_service.js"></script>
+    
+  </body>
+
+</html>
