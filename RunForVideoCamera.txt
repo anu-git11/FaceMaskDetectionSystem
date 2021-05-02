@@ -1,3 +1,0 @@
-python detect.py --source 0 --weights \MASKITORalgorithm\Models\MASKITOR_FINAL_MODEL.pt --conf 0.6
-
-
