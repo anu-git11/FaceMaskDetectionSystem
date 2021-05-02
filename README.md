@@ -28,4 +28,8 @@ The YOLOv5x algorithm was trained on Google COLAB with our dataset for various i
 
 ## **INFERENCING AND INTERACTIONS WITH SQL**
 
+The inferencing is being done by parsing the video feed to the camera and then storing and fetching the data from the SQL databases. The code can be found here : https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/detect.py
+Also, the inferencing can be run from the command line for images and videos using commands stored in:
+
+
 
