@@ -30,6 +30,16 @@ The YOLOv5x algorithm was trained on Google COLAB with our dataset for various i
 
 The inferencing is being done by parsing the video feed to the camera and then storing and fetching the data from the SQL databases. The code can be found here : https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/detect.py
 Also, the inferencing can be run from the command line for images and videos using commands stored in:
+https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/RunForSIngleImage.txt
+and
+https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/RunForVideoCamera.txt
+
+The SQL databases used for the system are stored in https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/Databases folder.
+
+## **WEB INTERFACE**
+
+The web interface is created using HTML, CSS, JavaScript and PHP, which is mainly used for creating weekly reports and managing the Cameras, in addition to connection with the databases to store and retrieve data. The web interface code is stored in https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/Web%20Interface
+
 
 
 
