@@ -34,7 +34,7 @@ https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/RunForSIngleImage
 and
 https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/RunForVideoCamera.txt
 
-The SQL databases used for the system are stored in https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/Databases folder.
+The SQL databases used for the system are stored in https://github.com/anu-git11/FaceMaskDetectionSystem/tree/main/Database folder.
 
 ## **WEB INTERFACE**
 
