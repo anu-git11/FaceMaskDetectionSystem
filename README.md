@@ -26,4 +26,6 @@ It was created from open source images and was labelled in yolo format using the
 The Training Notebook - https://github.com/anu-git11/FaceMaskDetectionSystem/blob/main/MASKITOR_TRAINING%20.ipynb, was trained on Google COLAB.
 The YOLOv5x algorithm was trained on Google COLAB with our dataset for various image sizes, with 620px giving the best results i.e. A detection Accuracy of 97%, Precision 0.95, and a Recall of 0.9. The trained model is stored in the Models folder of the MASKITORAlgorithm.
 
+## **INFERENCING AND INTERACTIONS WITH SQL**
+
 
