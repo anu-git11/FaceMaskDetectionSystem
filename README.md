@@ -1,4 +1,4 @@
-# FACE MASK DETECTION SYSTEM with FACE MATCHING FROM SQL DATABASE
+# FACE MASK DETECTION SYSTEM using YOLOv5 
 
 As of January 28, 2020, severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2) has infected more than 100 million individuals worldwide and caused more than 2.1 million deaths.
 
